@@ -1,0 +1,39 @@
+
+/* Importation des polices depuis google fonts ==> A modifier */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/bouton.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin : 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 50px;
+}
+
+/* supprime le souligné sur le bouton */
+a {
+	text-decoration: none;
+}
+
+#intro {
+	margin-top: 200px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	text-align: justify;
+}
+

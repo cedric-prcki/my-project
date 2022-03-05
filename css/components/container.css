@@ -1,0 +1,26 @@
+/* Description du container */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+/* Responsive container : Redimensionnement en fonction du device */
+/* ATTENTION : Il faut mettre du plus large au plus étroit */
+/* Tablette */
+@media (max-width:  760px) {
+	.container {
+		background-color: green;
+		width: 600px;
+	}
+}
+
+/* Smartphone */
+@media (max-width:  500px) {
+	/* Pour un écran < 500px, on applique ces consignes */
+	.container {
+		background-color: red;
+		width: 400px;
+	}
+}
